@@ -1,0 +1,38 @@
+header {
+    .headerContainerItens {
+
+        padding: 0px 5rem;
+        height: 5rem;
+        font-size: 1.8rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: var(--snow-lightest);
+
+        .containerInputSearch {
+            input {
+                width: 30rem;
+                height: 3rem;
+                border-radius: 0.6rem;
+                border: 0.6px solid var(--frost-blue);
+            }
+        }
+
+        .logoName {
+            position: relative;
+            width: 300px;
+
+            span {
+                font-size: 4rem;
+                color: var(--aurora-red);
+            }
+
+        }
+
+        .profileContaienr{
+            color: var(--frost-blue);
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5rem;
+    margin-top: 1.5rem;
+
+    .twoDivsAside {
+        width: 100%;
+        height: 60rem;
+        display: flex;
+        justify-content: space-between;
+
+        aside {
+            width: 15%;
+            background-color: var(--snow-lightest);
+            border-radius: 0.8rem;
+            padding: 1.5rem;
+            overflow-x: hidden;
+            overflow-y: auto;
+
+        }
+
+        section {
+            width: 84%;
+            background-color: var(--snow-lightest);
+            border-radius: 0.8rem;
+
+            padding: 1.5rem;
+        }
+    }
+
+    .logsContainer {
+        margin-top: 1.5rem;
+        background-color: var(--snow-lightest);
+        border-radius: 0.8rem;
+        height: 25rem;
+        padding: 1.5rem;
+
+    }
+}
