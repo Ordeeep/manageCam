@@ -9,14 +9,14 @@ export default function Modal({ isOpen, setCloseModal }) {
     const handleFileChange = (e) => {
         const file = e.target.files[0];
         if (file) {
-            // Cria uma URL para o arquivo de imagem
             const imageUrl = URL.createObjectURL(file);
-            setBackgroundImage(imageUrl); // Define a URL da imagem no estado
+            setBackgroundImage(imageUrl);
         }
     };
     useEffect(() => {
         if (!isOpen) {
             setList([]);
+            setBackgroundImage(null);
         }
     }, [isOpen]);
 

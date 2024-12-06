@@ -8,11 +8,11 @@ function App() {
                 <input type="text" />
             </div>
             <div className='logoName'>
-                <span className='inter-700'>How-be</span>
+                <span className='inter-700'>Placeholder</span>
             </div>
             <div className="profileContaienr">
                 <div className="profileIcon"></div>
-                <span className="profileName inter-700">Pedro Ivan</span>
+                <span className="profileName inter-700">Placeholder</span>
             </div>
         </div>
      </header>
