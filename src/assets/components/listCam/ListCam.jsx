@@ -3,6 +3,7 @@ import './ListCam.css';
 import viewIcon from '../../images/view.png';
 import deleteIcon from '../../images/delete.png';
 
+
 const data = [
   {
     id: 1,
@@ -61,7 +62,7 @@ const data = [
 ];
 
 const ListCam = () => {
-  const [visibleProjectId, setVisibleProjectId] = useState(null); // Removido tipo
+  const [visibleProjectId, setVisibleProjectId] = useState(null);
 
   // Função para alternar a visibilidade do projeto
   const toggleVisibility = (projectId) => {
@@ -70,11 +71,12 @@ const ListCam = () => {
     } else {
       setVisibleProjectId(projectId); // Caso contrário, mostramos
     }
-  };
+  }
 
   return (
     <>
-      <ul className='inter-400'>
+      
+      <ul className='inter-400 listForAllProjects'>
         {data.map((allProjectInData) => (
           <li className='liProjectName' key={allProjectInData.id}>
             <div

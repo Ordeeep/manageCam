@@ -1,7 +1,9 @@
-ul {
+.listForAllProjects {
+    padding: 0px 1.5rem;
     list-style: none;
     width: 100%;
     user-select: none;
+
     li {
         width: 100%;
     }
@@ -9,6 +11,8 @@ ul {
     .inter-400 {
         width: 100%;
     }
+
+
 
     .projectNameContainer {
         width: 100%;
@@ -25,6 +29,7 @@ ul {
         background-color: var(--snow-light);
         border-radius: 8px;
     }
+
     .liCamName {
         width: 100%;
         padding: 0rem 0.4rem 0rem 1rem;

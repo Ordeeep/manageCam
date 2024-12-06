@@ -1,4 +1,31 @@
+.listCamTop {
+    .buttonsContainer {
+        display: flex;
+        gap: 1rem;
+
+        div:hover {
+            cursor: pointer;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            font-size: 1.9rem;
+
+        }
+    }
+
+    .hero {
+        margin: 1rem 0.5rem;
+    }
+}
+
 .mainContainer {
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +42,6 @@
             width: 15%;
             background-color: var(--snow-lightest);
             border-radius: 0.8rem;
-            padding: 1.5rem;
             overflow-x: hidden;
             overflow-y: auto;
 
@@ -25,7 +51,6 @@
             width: 84%;
             background-color: var(--snow-lightest);
             border-radius: 0.8rem;
-
             padding: 1.5rem;
         }
     }
